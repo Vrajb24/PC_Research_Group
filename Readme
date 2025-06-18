@@ -2,6 +2,17 @@
 
 This repository hosts the research, implementations, and benchmarks developed by our group at IIT Kanpur focused on optimizing communication between compute nodes in large-scale high-performance computing (HPC) environments. Our work targets the communication bottlenecks in distributed deep learning training, especially for large-scale models running across multi-node clusters.
 
+## Table of Contents
+- Research Focus
+- Current Projects
+- Repository Structure
+- Dependencies
+- Running Benchmarks
+- Results
+- Publications & Reports
+- Contributing
+- License
+
 ## 🔬 Research Focus
 
 <to be added>
@@ -45,6 +56,6 @@ bash run_allreduce_benchmark.sh
 
 <to be added>
 
----
+## 🪪 License
 
 © 2025 IIT Kanpur HPC-DL Communication Research Group
