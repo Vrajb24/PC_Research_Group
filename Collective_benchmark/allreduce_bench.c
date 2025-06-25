@@ -44,9 +44,10 @@ void run_pipelined(float *buf, int N, int P, int rank) {
     }
 
     double t1 = MPI_Wtime();
-    if (rank == 0)
+    if (rank == 0){
         printf("Pipelined Allreduce time: %f seconds\n", t1 - t0);
-
+        fflush(stdout);
+    }
     free(tmp);
 }
 
@@ -99,9 +100,10 @@ void run_segmented(float *buf, int N, int P, int rank, int sigma) {
     }
 
     double t1 = MPI_Wtime();
-    if (rank == 0)
+    if (rank == 0){
         printf("Segmented Allreduce time (σ=%d): %f seconds\n", sigma, t1 - t0);
-
+        fflush(stdout);
+    }
     free(tmp);
 }
 
