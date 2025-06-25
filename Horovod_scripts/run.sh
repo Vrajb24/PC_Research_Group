@@ -1,10 +1,8 @@
-# First, find a valid CPU partition name. Let's assume it's "standard" for this example.
-# Replace "standard" with the actual name from the 'sinfo' command.
+# need to change partion name correctly
 CPU_PARTITION="standard"
 
-# Define the number of cores available per CPU node on Param Sanganak
-# This is a reasonable assumption, check documentation if unsure.
-CORES_PER_NODE=32 
+#will add a meta file changing number of nodes for benchmarking
+CORES_PER_NODE=48
 
 # Loop through the total number of processes you want to test
 for procs in 4 8 16 32 64; do

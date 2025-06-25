@@ -9,7 +9,7 @@
 #SBATCH --partition=standard
 #SBATCH --array=0-3
 
-# Load MPI module (edit as per your cluster's setup)
+# Load MPI module (might need to adjust)
 module load mpi
 
 # Define different combinations of input arguments
