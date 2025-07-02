@@ -1,0 +1,108 @@
+==========================================
+SLURM_CLUSTER_NAME = iitk-cluster
+SLURM_JOB_ACCOUNT = pool_pmalakar
+SLURM_JOB_ID = 582131
+SLURM_JOB_NAME = allreduce_scaling
+SLURM_JOB_NODELIST = cn[049-050]
+SLURM_JOB_USER = vrajb24
+SLURM_JOB_UID = 15968
+SLURM_JOB_PARTITION = small
+SLURM_TASK_PID = 40107
+SLURM_SUBMIT_DIR = /home/vrajb24/SyncedCodes/Collective_benchmark
+SLURM_CPUS_ON_NODE = 48
+SLURM_NTASKS = 96
+SLURM_TASK_PID = 40107
+==========================================
+Running allreduce scaling sweep on 2 node(s)
+MSG_SIZE=21474836480 ; CHUNK=1048576
+------------------------------------------------------------------------
+===== Run 1 for P=1 =====
+
+===== Run 2 for P=1 =====
+
+===== Run 3 for P=1 =====
+
+===== Run 4 for P=1 =====
+
+===== Run 5 for P=1 =====
+
+===== Run 1 for P=2 =====
+
+===== Run 2 for P=2 =====
+
+===== Run 3 for P=2 =====
+
+===== Run 4 for P=2 =====
+
+===== Run 5 for P=2 =====
+
+===== Run 1 for P=4 =====
+
+===== Run 2 for P=4 =====
+
+===== Run 3 for P=4 =====
+
+===== Run 4 for P=4 =====
+
+===== Run 5 for P=4 =====
+
+===== Run 1 for P=8 =====
+
+===== Run 2 for P=8 =====
+
+===== Run 3 for P=8 =====
+
+===== Run 4 for P=8 =====
+
+===== Run 5 for P=8 =====
+
+===== Run 1 for P=16 =====
+
+===== Run 2 for P=16 =====
+
+===== Run 3 for P=16 =====
+
+===== Run 4 for P=16 =====
+
+===== Run 5 for P=16 =====
+
+===== Run 1 for P=32 =====
+
+===== Run 2 for P=32 =====
+
+===== Run 3 for P=32 =====
+
+===== Run 4 for P=32 =====
+
+===== Run 5 for P=32 =====
+
+===== Run 1 for P=48 =====
+
+===== Run 2 for P=48 =====
+
+===== Run 3 for P=48 =====
+
+===== Run 4 for P=48 =====
+
+===== Run 5 for P=48 =====
+
+===== Run 1 for P=64 =====
+
+===== Run 2 for P=64 =====
+
+===== Run 3 for P=64 =====
+
+===== Run 4 for P=64 =====
+
+===== Run 5 for P=64 =====
+
+===== Run 1 for P=96 =====
+
+===== Run 2 for P=96 =====
+
+===== Run 3 for P=96 =====
+
+===== Run 4 for P=96 =====
+
+===== Run 5 for P=96 =====
+

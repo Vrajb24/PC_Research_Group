@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Sync to param",
+      "type": "shell",
+      "command": "rsync -avz -e \"ssh -p 4422\" /mnt/c/Users/rocke/Desktop/PC_Research_Group/ vrajb24@paramsanganak.iitk.ac.in:/home/vrajb24/SyncedCodes/",
+      "group": {
+        "kind": "build"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Sync from param",
+      "type": "shell",
+      "command": "rsync -avz -e \"ssh -p 4422\" vrajb24@paramsanganak.iitk.ac.in:/home/vrajb24/SyncedCodes/ /mnt/c/Users/rocke/Desktop/PC_Research_Group/",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
